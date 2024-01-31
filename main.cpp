@@ -168,10 +168,8 @@ void merge(vector<int> &array, int s, int e) {
   vector<int> right;
   for (int i = s; i <= e; i++) {
     if (i <= m) {
-      // cout << i << endl;
       left.push_back(array[i]);
     } else {
-      // cout << i << endl;
       right.push_back(array[i]);
     }
   }
