@@ -9,6 +9,7 @@
 #include <mutex>
 #include <cmath>
 #include <algorithm>
+#include <random>
 using namespace std;
 
 typedef tuple<int, int, bool> ii;
